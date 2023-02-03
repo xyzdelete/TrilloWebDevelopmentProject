@@ -26,11 +26,40 @@
     background-color: var(--color-grey-dark-1);
 
     flex: 0 0 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     background-color: #fff;
+
+    // Test
     background-color: orangered;
+    height: 80rem;
 
     flex: 1;
+}
+
+// Side navigation
+.side-nav {
+    &__item {
+    }
+
+    &__link {
+    }
+
+    &__icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+// Legal text
+.legal {
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 2.5rem;
+    color: var(--color-grey-light-4);
 }
